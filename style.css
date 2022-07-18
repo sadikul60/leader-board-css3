@@ -5,9 +5,40 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #E5E5E5;
+    margin: 0;
 
 
 }
+
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 16% 5px 16%;
+    background-color: blue;
+}
+
+.logo-icon img{
+    width: 40px;
+    height: 51px;
+}
+.text-one{
+    color: #ffff;
+    font-size: 35px;
+}
+.menu-bar{
+    align-items: center;
+}
+.menu-bar a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 18px;
+    padding: 12px;
+}
+.menu-bar a:hover{
+    background: skyblue;
+    padding: 12px;
+}
+
 
 main{
     display: flex;
